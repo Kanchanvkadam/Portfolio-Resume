@@ -11,14 +11,14 @@ body{
 
 .aside-container{
     width: 30%;
-    height: 200vh;
+    height: inherit;
     background-color: #155e91;
     color: #ffffff;
 }
 
 .section-container{
     width: 70%;
-    height: 200vh;
+    height: inherit;
     background-color: #ffffff;
 }
 @media only screen and (max-width: 850px){
