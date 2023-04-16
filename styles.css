@@ -7,6 +7,14 @@ body{
     display: flex;
     flex-direction: row;
     margin: 0 10%;
+    margin-bottom: 20px;
+}
+th{
+    color: #155e91;
+    text-align: left;
+}
+.color-blue{
+    color: #155e91;
 }
 
 .aside-container{
@@ -14,12 +22,14 @@ body{
     height: inherit;
     background-color: #155e91;
     color: #ffffff;
+    box-shadow: #155e91 0px 5px 15px;
 }
 
 .section-container{
     width: 70%;
     height: inherit;
     background-color: #ffffff;
+    box-shadow: #155e91 0px 5px 15px;
 }
 @media only screen and (max-width: 850px){
     .portfolio-container{
@@ -131,9 +141,9 @@ ul > li {
     border-collapse: collapse;
     width: 100%;
     color: black;
-    text-align: center;
-    border: 1px solid black;
+    border: 1px solid #155e91;
     padding: 20px;
     margin-top: 10px;
+    box-shadow: #155e91 0px 2px 4px 0px;
 }
 
